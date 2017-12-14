@@ -11,7 +11,7 @@ import static enums.AddressComponent.*;
 import static domain.Remuneration.*;
 
 
-public abstract class Worker extends BaseEntity {
+public abstract class Worker extends BaseEntity {          //implements comparator<Worker??>?? of elders? of aparte WorkerSort-class die comparator<Worker> implementeert??
     private static int MINREMUN;                                    //just?  protected??
     private static double REMUNMODIFIER;
     private String firstName;
